@@ -1,0 +1,49 @@
+/* Centre la section d'inscription */
+.center {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Formulaire d'inscription */
+.inscription {
+    width: 300px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Champs du formulaire */
+.formGroup {
+    margin-bottom: 20px;
+}
+
+
+/* Bouton de soumission */
+#inscript {
+    width: 100%;
+    padding: 10px;
+    background-color: #98BF45;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#inscript:hover {
+    background-color: #88A649;
+}
+
+/* Lien vers la page de connexion */
+.inscription a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #3060BF;
+    text-decoration: none;
+}
+
+.inscription a:hover {
+    text-decoration: underline;
+}

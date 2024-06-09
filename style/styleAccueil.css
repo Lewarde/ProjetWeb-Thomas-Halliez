@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .titreAccueil {
+    margin-bottom: 20px;
+    text-align: center; 
+    font-size: 24px;
+    font-weight: bold; 
+  }
+  
+  .zoneActions {
+    margin-bottom: 20px;
+  }
+  
+  .btnCreerPage {
+    background-color: #98BF45; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .zoneChoixFormulaire {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .pageItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .pageItem span {
+    flex-grow: 1;
+  }
+  
+  .btnAcceder, .btnSupprimer {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .btnAcceder {
+    background-color: #98BF45; 
+    color: white;
+  }
+  
+  .btnSupprimer {
+    background-color: #f44336; 
+    color: white;
+  }

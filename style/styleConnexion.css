@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Titre */
+.titreConnexion {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.titreConnexion h1 {
+    color: #333;
+}
+
+.titreConnexion p {
+    color: #666;
+}
+
+/* Formulaire de connexion */
+.connexion {
+    width: 300px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.connexion input[type="text"],
+.connexion input[type="password"] {
+    width: calc(100% - 20px);
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.connexion input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #98BF45;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.connexion input[type="submit"]:hover {
+    background-color: #88A649;
+}
+
+/* Lien vers la page d'inscription */
+.titreConnexion a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #F7EC11;
+    text-decoration: none;
+}
+
+.titreConnexion a:hover {
+    text-decoration: underline;
+}
+
+.pasDeCompte {
+    text-align: center;
+    margin-top: 20px;
+    color: #000000;
+}
+
+.pasDeCompte a {
+    color: #3060BF;
+    text-decoration: none;
+}
+
+.pasDeCompte a:hover {
+    text-decoration: underline;
+}
+
+.titreAccueil {
+    text-align: center;
+    margin-top: 50px;
+}
